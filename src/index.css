@@ -7,7 +7,57 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  background-color:  White;
+  width: 500px;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 2px 2px 15px white;
+}
+
+.quote {
+  margin: 0 40px 30px 40px;
+}
+
+.author {
+  text-align: right;
+  margin: 0 40px 30px 40px;
+  border-top: 1px solid;
+}
+
+.container button {
+  height: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  color: #FFF;
+  border: solid;
+  border-radius: 8px;
+  padding: 0 10px 0 10px;
+}
+
+.icon {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: space-between;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
