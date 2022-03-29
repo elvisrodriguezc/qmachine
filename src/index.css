@@ -7,12 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .container {
   background-color:  White;
-  width: 500px;
   border-radius: 30px;
+  max-width: 500px;
   padding: 20px;
   box-shadow: 2px 2px 15px white;
+  margin: 0 20px;
 }
 
 .quote {
@@ -50,14 +61,4 @@ body {
   color: white;
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }

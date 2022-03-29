@@ -10,7 +10,12 @@ const Button = (props) => {
   } = useContext(QContext)
 
   return (
-    <button onClick={props.onClickButton} style={{ backgroundColor: colourTheme }}>{props.text} {props.icon ? <FiTwitter /> : <FiSkipForward />}</button>
+    <button
+      onClick={props.onClickButton}
+      style={{ backgroundColor: colourTheme }}
+    >
+      {props.text} {props.icon ? <FiTwitter /> : <FiSkipForward />}
+    </button>
   )
 }
 
