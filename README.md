@@ -1,3 +1,18 @@
+# Quote Machine
+Its a great application based in React Library Code, which includes 102 Quotes displayed in a box:
+
+## How to Use
+### Modify the quote
+Use the Button `Next Quote`, to navigate between the differents Quotes. This acttion will change the Colour of the Theme for a nice and funny visualization.
+
+### Share in Twitter
+Use the second button to share the Quote y Tweeter, as easy as that.
+
+#Do you want to collaborate in the Update? 
+# Clone from our GitHub repository
+You should have received a copy of the Code using the console command:
+###`git clone https://github.com/elvisrodriguezc/qmachine.git`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
