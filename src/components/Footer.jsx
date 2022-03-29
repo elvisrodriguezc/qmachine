@@ -8,9 +8,6 @@ const Footer = () => {
     randQuote,
   } = useContext(QContext)
 
-  const onClickButton = () => {
-    randQuote()
-  }
   return (
     <div className="footer">
       <div>
