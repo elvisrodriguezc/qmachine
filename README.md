@@ -1,6 +1,9 @@
 # Quote Machine
 Its a great application based in React Library Code, which includes 102 Quotes displayed in a box:
 
+[Live View](https://62435508d6f6ad0eb7685dd5--quotes-academloerc.netlify.app)
+
+
 ## How to Use
 ### Modify the quote
 Use the Button `Next Quote`, to navigate between the differents Quotes. This acttion will change the Colour of the Theme for a nice and funny visualization.
