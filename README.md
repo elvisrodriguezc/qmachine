@@ -5,7 +5,7 @@ Its a great application based in React Library Code, which includes 102 Quotes d
 
 
 ## How to Use
-### Modify the quote
+### See another Quote
 Use the Button `Next Quote`, to navigate between the differents Quotes. This acttion will change the Colour of the Theme for a nice and funny visualization.
 
 ### Share in Twitter
